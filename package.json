@@ -1,0 +1,30 @@
+{
+  "name": "izhtransport2016",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build && rm -rf \"dist/*\" && node ./build/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izhtransport2016/izhtransport2016.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izhtransport2016/izhtransport2016/issues"
+  },
+  "homepage": "https://github.com/izhtransport2016/izhtransport2016#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^1.6.3",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  }
+}
