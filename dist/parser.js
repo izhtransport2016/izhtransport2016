@@ -8,7 +8,7 @@ function getUrl(type, num) {
 
 function getParsedResultJSON(text) {
   var reStation = /data-station=(\d+).*?<small.*?>(\d+?)/g;
-  var reTransport = /data-station=(\d+).*?sprite sprites(\d+).*?napr="(\d+)".*?title="(.+?)"/g;
+  var reTransport = /data-station=(\d+).*?sprite sprites(\d+).*?napr=['"](\d+)['"].*?title=['"](.+?)['"]/g;
   var stations = [];
   var transports = [];
   var result;
